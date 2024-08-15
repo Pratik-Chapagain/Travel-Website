@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    background-color: #00e5ff;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.logo span {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+}
+
+.search-container {
+    flex: 1;
+    margin: 0 30px;
+    position: relative;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.search-container input:focus {
+    border-color: #00e5ff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 229, 255, 0.3);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00e5ff;
+}
+
+.sign-in-btn {
+    padding: 10px 25px;
+    background-color: #00e5ff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in-btn:hover {
+    background-color: #00c4e5;
+}
+
+.sign-in-btn:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 196, 229, 0.5);
+}
